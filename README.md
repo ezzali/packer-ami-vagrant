@@ -22,7 +22,7 @@ Install using standard Vagrant 1.1+ plugin installation methods. After installin
 ```bash
 $ vagrant plugin install vagrant-aws
 
-$ vagrant init ubuntu-aws packer_amazon-ebs_aws.box 
+$ vagrant init ubuntu-aws build/ubuntu_12.04_amd64_aws.box 
 ```
 
 Modify *Vagrantfile* according to the following file
