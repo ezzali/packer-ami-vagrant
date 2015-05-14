@@ -4,7 +4,7 @@
 packer build -var-file aws-access.json packer-ami-vagrant.json
 ```
 
-Create aws-access.json
+Create *aws-access.json*
 
 ```javascript
 {
