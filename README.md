@@ -1,2 +1,1 @@
-# packer-ami-vagrant
-Packer AMI builder Vagrant provider  
+[Packer](http://packer.io/) Amazon EBS Builder and Vagrant Postprocessor
