@@ -25,7 +25,7 @@ $ vagrant plugin install vagrant-aws
 $ vagrant init ubuntu-aws packer_amazon-ebs_aws.box 
 ```
 
-Modify *Vagrantfile* according to the following file.
+Modify *Vagrantfile* according to the following file
 
 ```
 # -*- mode: ruby -*-
@@ -61,7 +61,7 @@ Vagrant.configure(2) do |config|
 end
 ```
 
-Start vagrant
+Start EC2 instance
 
 ```bash
 $ vagrant up --provider=aws
