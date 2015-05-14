@@ -61,7 +61,7 @@ Vagrant.configure(2) do |config|
 end
 ```
 
-Start EC2 instance
+Start EC2 instance via Vagrant
 
 ```bash
 $ vagrant up --provider=aws
@@ -69,6 +69,6 @@ $ vagrant up --provider=aws
 $ vagrant ssh
 ```
 
-#### Convert EC2 AMI to VMDK for Vagrant
+#### Alternative: Convert EC2 AMI to VMDK for Vagrant
 
 http://smashingboxes.com/ideas/how-to-convert-ec2-ami-to-vmdk-for-vagrant
