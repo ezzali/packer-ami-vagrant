@@ -1,3 +1,5 @@
+#### Build Amazon AMI with Packer
+
 [Packer](http://packer.io/) configures Amazon AMI and [Vagrant](https://www.vagrantup.com) box.
 
 ```bash
@@ -13,6 +15,15 @@ Create *aws-access.json*
 }
 ```
 
-Convert EC2 AMI to VMDK for Vagrant
+#### Deploy AWS EC2 with Vagrant
+
+Install using standard Vagrant 1.1+ plugin installation methods. After installing, vagrant up and specify the aws provider. An example is shown below.
+
+```bash
+$ vagrant plugin install vagrant-aws
+$ vagrant up --provider=aws
+```
+
+#### Convert EC2 AMI to VMDK for Vagrant
 
 http://smashingboxes.com/ideas/how-to-convert-ec2-ami-to-vmdk-for-vagrant
