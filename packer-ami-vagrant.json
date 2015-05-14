@@ -18,7 +18,8 @@
   ],
   "post-processors": [
     {
-      "type": "vagrant"
+      "type": "vagrant",
+      "output": "build/ubuntu_12.04_amd64_aws.box"
     } 
   ]
 }
