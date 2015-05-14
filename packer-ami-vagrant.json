@@ -16,6 +16,7 @@
       "ami_name": "packer-quick-start {{timestamp}}"
     }
   ],
+  
   "post-processors": [
     {
       "type": "vagrant",
