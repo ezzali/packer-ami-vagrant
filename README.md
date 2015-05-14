@@ -46,7 +46,7 @@ Vagrant.configure(2) do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "packer_amazon-ebs_aws.box"
+  config.vm.box_url = "build/ubuntu_12.04_amd64_aws.box"
 
   config.vm.provider :aws do |aws, override|
     aws.access_key_id = "YOUR KEY"
