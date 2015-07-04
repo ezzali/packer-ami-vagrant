@@ -68,7 +68,3 @@ $ vagrant up --provider=aws
 
 $ vagrant ssh
 ```
-
-#### Alternative: Convert EC2 AMI to VMDK for Vagrant
-
-http://smashingboxes.com/ideas/how-to-convert-ec2-ami-to-vmdk-for-vagrant
